@@ -1,0 +1,17 @@
+{
+    "name": "michielkempen/advent-of-code",
+    "require": {
+        "pestphp/pest": "^3.6",
+        "illuminate/collections": "^11.34"
+    },
+    "autoload": {
+        "psr-4": {
+            "AdventOfCode\\": "src/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
